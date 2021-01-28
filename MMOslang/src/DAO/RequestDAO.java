@@ -60,7 +60,6 @@ public class RequestDAO {
 			ps = db.prepareStatement("INSERT INTO request(title) VALUES (?);");
 			ps.setString(1,req.getReq());
 			ps.execute();
-			System.out.println(req.getReq());
 		}catch (NamingException | SQLException e) {
 			e.printStackTrace();
 		} finally {
