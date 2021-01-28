@@ -37,7 +37,7 @@ public class Admin extends HttpServlet {
 		int type=Integer.parseInt(request.getParameter("type"));
 		SlangDAO dao=new SlangDAO();
 		dao.insertOne(new Slang(title,body,type));
-		request.setAttribute("msg", "1件登録しました");
+		request.setAttribute("msg", title+"を登録しました");
 		doGet(request,response);
 	}
 
