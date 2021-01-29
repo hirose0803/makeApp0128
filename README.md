@@ -22,4 +22,4 @@ CREATE TABLE request(
 title VARCHAR(255)
 );
 ```
-の２つのテーブルを作成し、srcフォルダ内utilフォルダ内のCreateDB.javaを実行しその後、viewを見る場合はservletのMain.javaを、adminを見る場合はAdmin.javaを実行していただくようお願いします。  
+の２つのテーブルを作成しsrcフォルダ内utilフォルダ内のcreateDB.javaを実行するか、mmoslang.sqlのファイルをインポートしていただくようお願いします。
